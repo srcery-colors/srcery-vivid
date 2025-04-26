@@ -14,14 +14,22 @@
   </a>
 </p>
 
-<h2 align="center">[THEME NAME]</h2>
+<h2 align="center">Srcery Vivid Theme</h2>
 
-<p align="center">
-[THEME DESCRIPTION]
-</p>
-
+This is a theme for [vivid](https://github.com/sharkdp/vivid), A themeable `LS_COLORS` generator with a rich filetype datebase.
 
 ## Requirements
-## Installation
-## Screenshots
 
+- [vivid](https://github.com/sharkdp/vivid)
+
+## Installation
+
+Add this to your `~/.bashrc` or `~/.zshrc`, ...
+
+```sh
+export LS_COLORS="$(vivid generate /path/to/srcery-vivid/srcery.yml)"
+```
+
+## Preview
+
+![preview](https://raw.githubusercontent.com/srcery-colors/srcery-assets/83bebf7cfd87fee0d245764f02a7f2237ff3e35b/vivid/preview.png)

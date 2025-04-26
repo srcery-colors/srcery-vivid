@@ -1,0 +1,171 @@
+colors:
+  # Maintainer: Daniel Berg <mail@roosta.sh>
+  # Vivid/themes/gruvbox-dark.yml used as a theme base, modified to fit srcery
+  # types and loosely adjusted to match dircolors.
+  # Based on the 'srcery' theme
+  # https://srcery.sh/
+
+  # 8 bit palette
+  black: "1C1B19"
+  red: "EF2F27"
+  green: "519F50"
+  yellow: "FBB829"
+  blue: "2C78BF"
+  magenta: "E02C6D"
+  cyan: "0AAEB3"
+  white: "BAA67F"
+  bright_black: "918175"
+  bright_red: "F75341"
+  bright_green: "98BC37"
+  bright_yellow: "FED06E"
+  bright_blue: "68A8E4"
+  bright_magenta: "FF5C8F"
+  bright_cyan: "2BE4D0"
+  bright_white: "FCE8C3"
+
+  # Extra colors
+  orange: "FF5F00"
+  bright_orange: "FF8700"
+  hard_black: "121212"
+  xgray1: "262626"
+  xgray2: "303030"
+  xgray3: "3A3A3A"
+  xgray4: "444444"
+  xgray5: "4E4E4E"
+  xgray6: "585858"
+
+core:
+  normal_text:
+    foreground: bright_white
+    background: black
+
+  regular_file:
+    foreground: bright_white
+    background: black
+
+  reset_to_normal: {}
+
+  directory:
+    foreground: blue
+
+  symlink:
+    foreground: bright_cyan
+    font-style: italic
+
+  multi_hard_link:
+    font-style: bold
+
+  fifo:
+    foreground: magenta
+
+  socket:
+    foreground: magenta
+    font-style: bold
+
+  door:
+    foreground: bright_magenta
+    font-style: bold
+
+  block_device:
+    foreground: yellow
+    font-style: bold
+
+  character_device:
+    foreground: bright_yellow
+    font-style: italic
+
+  broken_symlink:
+    foreground: bright_red
+    font-style: italic
+
+  missing_symlink_target:
+    foreground: bright_red
+    font-style: underline
+
+  setuid:
+    foreground: black
+    background: bright_red
+
+  setgid:
+    foreground: black
+    background: bright_orange
+
+  file_with_capability:
+    foreground: black
+    background: bright_red
+
+  sticky_other_writable:
+    foreground: bright_white
+    background: blue
+    font-style: italic
+
+  other_writable:
+    foreground: bright_green
+    font-style: bold
+
+  sticky:
+    foreground: cyan
+
+  executable_file:
+    foreground: bright_orange
+    font-style: bold
+
+text:
+  special:
+    foreground: black
+    background: bright_yellow
+    font-style: bold
+
+  todo:
+    foreground: bright_white
+    font-style: bold
+
+  licenses:
+    foreground: white
+    font-style: italic
+
+  configuration:
+    foreground: bright_yellow
+
+  other:
+    foreground: bright_white
+
+markup:
+  foreground: bright_yellow
+
+programming:
+  source:
+    foreground: bright_green
+
+  tooling:
+    foreground: green
+    font-style: italic
+
+    continuous-integration:
+      foreground: bright_blue
+
+media:
+  foreground: cyan
+
+  video:
+    foreground: bright_cyan
+    font-style: bold
+
+office:
+  foreground: bright_blue
+  font-style: italic
+
+archives:
+  foreground: bright_cyan
+  font-style: underline
+
+  images:
+    foreground: yellow
+
+executable:
+  foreground: orange
+  font-style: bold
+
+unimportant:
+  foreground: bright_black
+  font-style: italic
