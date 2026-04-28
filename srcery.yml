@@ -51,7 +51,7 @@ core:
     foreground: blue
 
   symlink:
-    foreground: bright_cyan
+    foreground: bright_blue
     font-style: italic
 
   multi_hard_link:
