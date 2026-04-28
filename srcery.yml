@@ -41,11 +41,9 @@ colors:
 core:
   normal_text:
     foreground: bright_white
-    background: black
 
   regular_file:
     foreground: bright_white
-    background: black
 
   reset_to_normal: {}
 
